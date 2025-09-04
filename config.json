@@ -1,0 +1,180 @@
+{
+  "ai_models": {
+    "primary": "gpt-4",
+    "fallback": "gpt-3.5-turbo", 
+    "coding": "code-davinci-002",
+    "image_generation": "dall-e-3"
+  },
+  "development": {
+    "default_languages": ["python", "javascript", "typescript"],
+    "preferred_frameworks": ["react", "fastapi", "flask", "express"],
+    "deployment_platforms": ["vercel", "netlify", "heroku", "railway"],
+    "databases": ["sqlite", "postgresql", "mongodb", "firebase"],
+    "package_managers": {
+      "python": "pip",
+      "node": "npm",
+      "alternative_node": "yarn"
+    }
+  },
+  "hackathon": {
+    "default_time_limit_hours": 48,
+    "typical_team_size": 4,
+    "judging_criteria": [
+      "innovation",
+      "technical_implementation", 
+      "design",
+      "business_value",
+      "presentation"
+    ],
+    "common_themes": [
+      "AI for Good",
+      "Climate Change",
+      "FinTech Innovation",
+      "Healthcare Technology",
+      "Education Technology",
+      "Social Impact",
+      "Blockchain/Web3",
+      "IoT/Hardware",
+      "Cybersecurity",
+      "Developer Tools"
+    ]
+  },
+  "ui_preferences": {
+    "color_schemes": {
+      "primary": "tech_blue",
+      "alternatives": ["success_green", "vibrant_purple", "elegant_gray"]
+    },
+    "design_patterns": {
+      "default": "modern_minimal",
+      "mobile_first": true,
+      "responsive_breakpoints": {
+        "mobile": "768px",
+        "tablet": "1024px",
+        "desktop": "1200px"
+      }
+    }
+  },
+  "deployment": {
+    "auto_deploy": false,
+    "preferred_platforms": {
+      "frontend": "vercel",
+      "fullstack": "railway", 
+      "python_ml": "streamlit-cloud",
+      "static": "netlify"
+    },
+    "environment_variables": {
+      "required": ["DATABASE_URL", "SECRET_KEY"],
+      "optional": ["OPENAI_API_KEY", "STRIPE_KEY", "EMAIL_SERVICE"]
+    }
+  },
+  "project_templates": {
+    "web_app": {
+      "structure": [
+        "frontend/",
+        "backend/", 
+        "database/",
+        "docs/",
+        "tests/",
+        "deploy/"
+      ],
+      "auto_files": [
+        "README.md",
+        ".gitignore",
+        "docker-compose.yml",
+        ".env.example"
+      ]
+    },
+    "mobile_app": {
+      "structure": [
+        "src/",
+        "assets/",
+        "components/",
+        "screens/",
+        "navigation/",
+        "services/"
+      ]
+    },
+    "ai_ml": {
+      "structure": [
+        "data/",
+        "models/",
+        "notebooks/",
+        "src/",
+        "api/",
+        "frontend/"
+      ]
+    }
+  },
+  "code_generation": {
+    "quality_level": "production",
+    "include_comments": true,
+    "include_tests": true,
+    "include_documentation": true,
+    "code_style": {
+      "python": "black",
+      "javascript": "prettier",
+      "typescript": "prettier"
+    }
+  },
+  "research": {
+    "market_analysis_depth": "comprehensive",
+    "competitor_analysis": true,
+    "user_research": true,
+    "trend_analysis": true
+  },
+  "pitch_generation": {
+    "default_template": "hackathon_focused",
+    "include_speaker_notes": true,
+    "generate_visuals": true,
+    "demo_strategies": ["live_demo", "guided_storytelling", "data_story"]
+  },
+  "features": {
+    "auto_save": true,
+    "backup_projects": true,
+    "collaboration_tools": false,
+    "analytics": true,
+    "notifications": true
+  },
+  "performance": {
+    "cache_enabled": true,
+    "parallel_processing": true,
+    "timeout_seconds": 300,
+    "max_concurrent_requests": 5
+  },
+  "security": {
+    "api_rate_limiting": true,
+    "input_validation": true,
+    "secure_defaults": true,
+    "audit_logging": false
+  },
+  "integrations": {
+    "github": {
+      "enabled": true,
+      "auto_commit": false,
+      "default_branch": "main"
+    },
+    "slack": {
+      "enabled": false,
+      "webhook_url": ""
+    },
+    "discord": {
+      "enabled": false,
+      "webhook_url": ""
+    }
+  },
+  "learning_resources": {
+    "include_tutorials": true,
+    "skill_assessment": true,
+    "learning_paths": {
+      "beginner": ["html", "css", "javascript", "python"],
+      "intermediate": ["react", "node.js", "databases", "apis"],
+      "advanced": ["system_design", "scalability", "security", "deployment"]
+    }
+  },
+  "success_metrics": {
+    "track_project_completion": true,
+    "measure_development_speed": true,
+    "demo_success_rate": true,
+    "user_satisfaction": true
+  }
+}
